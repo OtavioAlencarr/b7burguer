@@ -1,0 +1,122 @@
+@media (max-width:1140px){
+    .container{padding: 20px;}
+}
+@media (min-width:768px) and (max-width:1024px){
+    .categorias{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .hamburguers{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    .banner{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .banner-right{
+        display: none;
+    }
+    .banner-left{
+        align-items: center;
+    }
+    .search{
+        align-items: center;
+    }
+    .cabecalho-left nav{
+        display: none;
+    }
+    .cabecalho-right{
+        display: none;
+    }
+    .menu-mobile{
+        display: flex;
+        cursor: pointer;
+    }
+    .hamburguer:hover{
+        transform: scale(1.0);}
+}
+
+@media (min-width:600px) and (max-width:767px){
+    .categorias{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .hamburguers{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    .banner{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .banner-right{
+        display: none;
+    }
+    .banner-left{
+        align-items: center;
+    }
+    .search{
+        align-items: center;
+    }
+    .cabecalho-left nav{
+        display: none;
+    }
+    .cabecalho-right{
+        display: none;
+    }
+    .menu-mobile{
+        display: flex;
+        cursor: pointer;
+    }
+    .hamburguer:hover{
+        transform: scale(1.0);}
+}
+
+@media (max-width:600px){
+    .categorias{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .hamburguers{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    .banner{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .banner-left h1{
+        font-size: 50px;
+    }
+    .banner-right{
+        display: none;
+    }
+    .banner-left{
+        align-items: center;
+    }
+    .search{
+        align-items: center;
+    }
+    .cabecalho-left nav{
+        display: none;
+    }
+    .cabecalho-right{
+        display: none;
+    }
+    .menu-mobile{
+        display: flex;
+        cursor: pointer;
+    }
+    .hamburguer:hover{
+        transform: scale(1.0);}
+}
